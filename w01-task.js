@@ -21,3 +21,13 @@ function total(...theNumbers) {
 	}
 	return sum
 }
+
+// dad's dumb stuff
+// const body = document.querySelector("body");
+// let joe = "Help!@!!!";
+// let bob = document.createElement("p");
+// bob.innerHTML = `What is going on and on?: <strong>${joe}</strong>`;
+// body.appendChild(bob);
+// document.querySelector("p").innerHTML = bob;
+
+
