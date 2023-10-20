@@ -1,4 +1,4 @@
-
+/* Reset Module */
 
 export default function reset(parent){
     while (parent.lastChild) {

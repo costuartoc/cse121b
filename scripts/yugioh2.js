@@ -1,6 +1,6 @@
 /* Final Project */
 /* Imports my reset function from a module */
-import reset from './moduleyu.js';
+import reset from './reset.js';
 
 /* Initializing global variables */
 const yugiCardTemplate = document.querySelector("[data-yugi-template]");
