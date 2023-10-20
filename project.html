@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/stylesyu.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="scripts/yugioh2.js" defer></script>
+    <title>Yu-Gi-Oh! Card Searcher! | Home</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class ='logo' src="images/yugiohpic2.jpg"
+                alt="SMYSA Logo">
+            </a>
+        </header>
+
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/yugiohpic1.png" alt="blue mountains">
+            </div>
+            <section id="hero-msg">
+                <h1 class="home-title">Yu-Gi-Oh! Blue-Eyes Card Searcher!</h1>
+                <h4>Let's Find Some Blue-Eyes Cards!</h4>
+            </section>
+            <select id="sortBy" title="Choose a data filter.">
+                <option value="" disabled selected>Choose a Card Type</option>
+                <option value="Blue-Eyes">Blue-Eyes</option>
+                <option value="Dark Magician">Dark Magician</option>
+                <option value="none">None</option>
+            </select>
+        </div>
+        <main class="home-grid">
+            <div class="search-wrapper">
+                <label for="search">Search Cards</label>
+                <input type="search" id="search" data-search>
+            </div>
+            <div class="yugi-cards" data-yugi-card-container></div>   
+            <template data-yugi-template>
+                <div class="card">
+                    <div class="header" data-header></div>
+                    <div class="body" data-body></div>
+                </div>
+            </template>  
+        </main>
+        <footer>
+            <p>CSE121B &copy; 2023 - Stuart Olmstead</p>
+            <p>Yu-Gi-Oh!</p>
+        </footer>
+    </div>
+</body>
+</html>
